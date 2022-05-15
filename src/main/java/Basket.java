@@ -22,11 +22,6 @@ public class Basket {
         return productBasket.size();
     }
 
-//    public void printBasket() { // метод для замены повторения кода (DRY)
-//        for (int i = 0; i < productBasket.size(); i++) {
-//            System.out.println((i + 1) + ". " + productBasket.get(i));
-//        }
-//    }
 
     public void printBasket() { // метод для замены повторения кода (DRY)
         for (int i = 0; i < productBasket.size(); i++) {
